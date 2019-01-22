@@ -40,3 +40,5 @@ console.log(navigator.userAgent);
 ## 其他参考  
 https://x5.tencent.com/tbs/technical.html#/detail/sdk/1/34cf1488-7dc2-41ca-a77f-0014112bcab7  
 
+## 已知问题  
+1.切换到X5内核后，会导致cordova无法联机调试，android studio可调试  
