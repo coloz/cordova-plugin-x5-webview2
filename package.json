@@ -1,0 +1,73 @@
+{
+  "_from": "cordova-plugin-x5-webview",
+  "_id": "cordova-plugin-x5-webview@3.1.3",
+  "_inBundle": false,
+  "_integrity": "sha1-Y4ivfbWJ9qnJYkFK2xKoE1SZvB8=",
+  "_location": "/cordova-plugin-x5-webview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-x5-webview",
+    "name": "cordova-plugin-x5-webview",
+    "escapedName": "cordova-plugin-x5-webview",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-x5-webview/-/cordova-plugin-x5-webview-3.1.3.tgz",
+  "_shasum": "6388af7db589f6a9c962414adb12a8135499bc1f",
+  "_spec": "cordova-plugin-x5-webview",
+  "_where": "C:\\Users\\clz\\Desktop\\Git\\iotapp",
+  "author": {
+    "name": "Jeremy",
+    "email": "swang0619@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jeremyup/cordova-plugin-x5-webview/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-x5-webview",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Changes the default WebView to Tencent X5 WebView",
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=5.2.0"
+    }
+  ],
+  "homepage": "https://github.com/jeremyup/cordova-plugin-x5-webview#readme",
+  "keywords": [
+    "cordova",
+    "chromium",
+    "x5",
+    "webview",
+    "tbs",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "cordova-plugin-x5-webview",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyup/cordova-plugin-x5-webview.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.1.3"
+}
