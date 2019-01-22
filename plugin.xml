@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
-    xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-x5-webview" version="3.1.0">
+    xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-x5-webview2" version="1.0.0">
 
-    <name>X5 WebView Engine</name>
+    <name>cordova-plugin-x5-webview2</name>
     <description>Changes the default WebView to Tencent X5(TBS)</description>
     <license>Apache 2.0</license>
     <keywords>cordova,chromium,x5,webview,tbs,cordova-android</keywords>
-    <repo>https://github.com/jeremyup/cordova-plugin-x5-webview</repo>
-    <issue>https://github.com/jeremyup/cordova-plugin-x5-webview/issues</issue>
+    <repo>https://github.com/coloz/cordova-plugin-x5-webview2.git</repo>
 
     <engines>
-        <engine name="cordova-android" version=">=4"/>
-        <engine name="cordova-plugman" version=">=5.2.0"/>
-        <!-- needed for gradleReference support -->
+        <engine name="cordova-android" version=">=7.0.0"/>
     </engines>
 
-    <!-- android -->
     <platform name="android">
 
         <config-file target="res/xml/config.xml" parent="/*">
@@ -43,10 +39,4 @@
         <lib-file src="platforms/android/libs/tbs_sdk_thirdapp_v3.6.0.jar" />
         <lib-file src="platforms/android/libs/armeabi/liblbs.so" />
     </platform>
-
-    <info>
-        If X5 version has upgraded,you can update TBS(.so and .jar) by yourself.
-        To contact me for any problems about this cordova-plugin-x5-webview!
-        https://github.com/jeremyup/cordova-plugin-x5-webview/issues
-    </info>
 </plugin>
